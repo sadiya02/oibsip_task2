@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <h1>Sadiya Aijaz Portfolio</h1>
+          <div class="menu">
+            <a href="#aboutMe">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contactform">Let's Connect</a>
+          </div>  
+        </nav>
+        <section class="content">
+            <img  class="profile" src="/profileimage.png" alt="profile image">
+            <div class="sectiondetails">
+                <h1>Sadiya Aijaz</h1>
+                <h3>Web Development and Designing Intern at Oasis Infobyte</h3>
+            </div>
+        </section>
+        <div class="aboutMe" id="#aboutMe">
+            <h1>About Me........</h1>
+            <p>Hello!! I am Sadiya Aijaz ,a Web Development and Designing intern at Oasis Infobyte.I love combining the worlds of logic and creative design to make eye catching,accessible and user friendly websites.
+            Technology leads ,society follows.The move towards increasing inclusivity and diversity in the industry through representation is of importance to me. 
+            I'm excited to make the leap and continue refining my skills with the right company.Drop me a line in the contact form below. </p>
+        </div>
+        <section class="skillsandprojects">
+            <div class="skills" id="skills">
+                <h1 class="cardheading">Skills</h1>
+                <img src="/html.svg" alt="html">
+                <img src="/css.svg" alt="css">
+                <img src="/js.svg" alt="javascript">
+                <img src="/bootstrap.svg" alt="bootstrap">
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardheading">Projects</h1>
+                <div class="projectcontainer">
+                    <img src="/landing page.svg" alt="landing page">
+                    <div class="projectdescription">
+                        <h4>Landing Page</h4>
+                    </div>
+                </div>
+                <div class="projectcontainer">
+                    <img src="/temperature.svg" alt="Temperature converter">
+                    <div class="projectdescription">
+                        <h4>Temperature Converter</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactform" id="contactform">
+            <h1>Let's Connect!</h1>
+            <div class="formgroup">
+                <label for="name">Enter Your Name</label><br/>
+                <input type="text" id="name" placeholder="Full Name"/>
+            </div>
+            <div class="formgroup">
+                <label for="email">Enter Your mail id</label><br/>
+                <input type="text" id="email" placeholder="email"/>
+            </div>
+            <div class="formgroup">
+                <label for="Message">Send Your Message</label><br/>
+                <textarea placeholder="Send Your Message!" id="Message" cols="50" rows="4"></textarea>
+            </div>
+          <button class="submit" onclick="{submit()}">Connect</button>
+        </section>
+    </main>
+    
+</body>
+</html>
